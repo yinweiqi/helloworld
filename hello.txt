@@ -1,3 +1,17 @@
 hello
 world
-hahhaah 
+git reset —hard HEAD^ //重置最新一次的更新，将清除上一次所有提交的修改
+git show HEAD //查看head区域的内容
+git diff 在给git add .之前查看我实际工作区域修改的内容
+git diff --cached //查看暂存区和实际工作区域的差异
+alias //查看短命令
+git branch -d 分支名 //从分支上删除某分支
+git status 短命令gs //查看当前分支
+
+
+git fetch source:light
+git merge source/light
+
+git pull source light 相当于以上两行命令的操作
+
+git pull --rebase=true source light 合并线上代码（在上次合并不久后再做此操作时使用，不建议改动较大的合并）
