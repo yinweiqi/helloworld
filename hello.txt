@@ -18,4 +18,3 @@ git pull source light 相当于以上两行命令的操作
 git pull --rebase=true source light 合并线上代码（在上次合并不久后再做此操作时使用，不建议改动较大的合并）
 git remote add origin git@github.com:yinweiqi/helloworld.git 指定push的远程位置
 git push -u origin master 提交到线上指定分支
-git checkout --文件名 //将指定文件从线上覆盖下来，用于实际工作区域出错需要正确的版本
